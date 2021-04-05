@@ -1,57 +1,67 @@
-# Project Name
+# API Elixir consumer
 
-> One paragraph statement about the project.
+> Consuming an API using Tesla library
 
-![screenshot](./app_screenshot.png)
+It shows the response from consuming an API with elixir, after mapping the data received and using interpolation to create a message as result.
 
-Additional description about the project and its features.
+![image](https://user-images.githubusercontent.com/5160907/113611057-99929e80-9613-11eb-85c2-02a8acb41004.png)
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Elixir 1.7.4,
+- Tesla 1.4.0
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+This project uses 1.7.4 elixir version, it is recommended to use some version runtime manager as asdf. In this case I use asdf:
+
+> *Elixir requires Erlang to be installed. You can use the [asdf-erlang](https://github.com/asdf-vm/asdf-erlang) plugin to install Erlang versions.*
+
+    asdf plugin-add elixir
+
+Install the required version
+
+    asdf install elixr 1.7.4
+
+Add this version to your current configuration
+
+    asdf global elixir 1.7.4
+
 ### Setup
+Clone the repository in your local machine:
+
+    # Clonar el repositorio
+    $ git@github.com:enelesmai/elixir-api-consumer.git
 
 ### Install
 
+Type the next command to install dependencies:
+
+    mix deps.get
+
 ### Usage
 
-### Run tests
+To compile your code:
 
-### Deployment
+    mix compile
 
+To execute the task:
 
+    mix
 
 ## Authors
 
-👤 **Author1**
+👤 **Xóchitl Selene Flores Pérez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [in/xochitlselene](https://linkedin.com/in/xochitlselene)
 
 ## 🤝 Contributing
 
