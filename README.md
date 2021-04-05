@@ -4,7 +4,7 @@
 
 It shows the response from consuming an API with elixir, after mapping the data received and using interpolation to create a message as result.
 
-![image](https://user-images.githubusercontent.com/5160907/113611057-99929e80-9613-11eb-85c2-02a8acb41004.png)
+![image](https://user-images.githubusercontent.com/5160907/113612107-02c6e180-9615-11eb-8040-64993624a3d7.png)
 
 
 ## Built With
