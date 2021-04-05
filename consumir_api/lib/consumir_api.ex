@@ -1,4 +1,14 @@
 defmodule ConsumirApi do
+
+  use Tesla
+
+  plug Tesla.Middleware.BaseUrl, "https://api.github.com"
+  #plug Tesla.Middleware.Headers, [{"authorization", "token xyz"}]
+  plug Tesla.Middleware.JSON
+
+  def user_repos(login) do
+    get("/users/" <> login <> "/repos")
+  end
   @moduledoc """
   Documentation for ConsumirApi.
   """
